@@ -1,3 +1,7 @@
 # x-IMU3-Max-MSP-Example
 
-![](https://github.com/xioTechnologies/x-IMU3-Max-MSP-Example/blob/main/Screenshot.png)
+![](Screenshot-0.png)
+
+# Expression Control (Ableton Max4Live)
+
+![](Screenshot-1.png)
