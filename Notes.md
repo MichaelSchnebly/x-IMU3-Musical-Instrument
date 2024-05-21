@@ -1,0 +1,16 @@
+# Progress Tracker
+- Add x-IMU3.maxpat to ExpressionControl
+    - "p x-IMU3"
+- Edit "p process-x-imu3-data"
+    - Split into individual, labelled values
+    - e.g. accel.x, accel.y, ...
+- Add output matching "p MidiLogic"
+    - (symbol int) source, value
+- Update dropdown menus, s/r ---selectedSignal, and coll ---signalTags
+    - To match x-imu3 labels
+- Determine minimal set of x-IMU3.maxpat features
+    - For desired functionality
+    - To expose to UI
+- Add x-IMU3 UI components to presentation mode
+- Add timeseries input plot
+- Add timeseries output plot
