@@ -8,9 +8,9 @@
     - (symbol int) source, value
 - Update dropdown menus, s/r ---selectedSignal, and coll ---signalTags
     - To match x-imu3 labels
-- Determine minimal set of x-IMU3.maxpat features
-    - For desired functionality
-    - To expose to UI
+- Determine minimal set of x-IMU3.maxpat features...
+    - ...for desired functionality
+    - ...to expose to UI
 - Add x-IMU3 UI components to presentation mode
 - Add timeseries input plot
 - Add timeseries output plot
