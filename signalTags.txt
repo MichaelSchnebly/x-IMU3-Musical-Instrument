@@ -1,0 +1,9 @@
+0, acc.x;
+1, acc.y;
+2, acc.z;
+3, gyr.x;
+4, gyr.y;
+5, gyr.z;
+6, eul.x;
+7, eul.y;
+8, eul.z;
