@@ -8,13 +8,13 @@
     - (symbol int) source, value
 - [X] Update dropdown menus, s/r ---selectedSignal, and coll ---signalTags
     - To match x-imu3 labels
-- [-] Rescale to range 0-1...
+- [] Rescale to range 0-1...
     - inputs
     - plots/processing
     - outputs
-- Determine minimal set of x-IMU3.maxpat features...
+- [] Determine minimal set of x-IMU3.maxpat features...
     - ...for desired functionality
     - ...to expose to UI
-- Add x-IMU3 UI components to presentation mode
-- Add timeseries input plot
-- Add timeseries output plot
+- [] Add x-IMU3 UI components to presentation mode
+- [] Add timeseries input plot
+- [] Add timeseries output plot
