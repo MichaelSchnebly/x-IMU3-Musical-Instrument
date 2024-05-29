@@ -1,8 +1,8 @@
 # x-IMU3 Musical Instrument
 ![](ableton-device.png)
-The x-IMU3 (by x-IO Technologies) is a wearable sensor that measures acceleration, rotational velocity, and orientation. This repository provides a Max4Live device that combines the x-IMU3 Max MSP Example with Ableton Live's "Expression Control", simplifying the process of setting up custom mappings from movement parameters to sound parameters.
+The x-IMU3 (by x-IO Technologies) is a wearable sensor that measures acceleration, rotational velocity, and orientation. This repository provides a Max4Live device that combines the [x-IMU3 Max MSP Example](https://github.com/xioTechnologies/x-IMU3-Max-MSP-Example) with [Ableton Live's "Expression Control"](https://www.ableton.com/en/live-manual/12/max-for-live-devices/#expression-control), simplifying the process of setting up custom mappings from movement parameters to sound parameters.
 
-Currently, it only supports a single device connectino per computer, but future versions will 
+_Note: This early prototype only supports one device connection per computer. Multi-device support will be added in the future._
 
 # Progress Tracker
 - [X] Add x-imu3.maxpat to ExpressionControl
