@@ -1,9 +1,0 @@
-acc.x, Acc.X;
-acc.y, Acc.Y;
-acc.z, Acc.Z;
-gyr.x, Gyr.X;
-gyr.y, Gyr.Y;
-gyr.z, Gyr.Z;
-eul.x, Eul.X;
-eul.y, Eul.Y;
-eul.z, Eul.Z;

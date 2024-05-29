@@ -19,6 +19,7 @@ Currently, it only supports a single device connectino per computer, but future 
     - plots/processing
     - outputs
 - [X] Add x-IMU3 UI components to presentation mode
-- [ ] Reduce to minimal set of features for desired functionality (remove vestigle functions from templates and development process)
-- [ ] Add timeseries input/output plots
+- [ ] Add timeseries input/output plots (?)
 - [ ] Add support for multiple device connections
+- [ ] Reduce to minimal set of features for desired functionality (remove vestigle functions from templates and development process)
+- [ ] Organize max patch objects / connections
