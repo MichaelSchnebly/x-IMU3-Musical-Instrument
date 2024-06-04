@@ -1,4 +1,5 @@
-# x-IMU3 Musical Instrument (Ableton)
+# x-IMU3 Musical Instrument
+###### _Expressive mappings from body movements to sounds in Ableton Live._
 ![](ableton-device.png)
 The [x-IMU3](https://x-io.co.uk/x-imu3/) is a research-grade wearable sensor that measures acceleration (± 24g), angular velocity (± 2000°/s), and absolute orientation at 400Hz. As one of many possible applications, these measurements can be used to control creative elements (e.g. light and sound) with body movements in realtime.
 
