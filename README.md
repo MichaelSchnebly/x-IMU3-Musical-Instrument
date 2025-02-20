@@ -5,4 +5,4 @@ The [x-IMU3](https://x-io.co.uk/x-imu3/) is a research-grade wearable sensor tha
 
 This repository provides a Max4Live device that combines the [x-IMU3 Max MSP Example](https://github.com/xioTechnologies/x-IMU3-Max-MSP-Example) with [Ableton Live's "Expression Control"](https://www.ableton.com/en/live-manual/12/max-for-live-devices/#expression-control), simplifying the process of setting up custom mappings from movement parameters to sound parameters.
 
-_Note: The "Hub" object must be present in the Ableton project (only once!) for a "Device" object to receive sensor data._
+_Note: The "Hub" object must be present in the Ableton project (only once!) for a "Device" to receive sensor data._
