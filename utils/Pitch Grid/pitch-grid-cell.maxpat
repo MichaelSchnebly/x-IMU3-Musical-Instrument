@@ -45,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 157.5, 629.0, 75.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Note Pitch",
 					"textjustification" : 1
 				}
