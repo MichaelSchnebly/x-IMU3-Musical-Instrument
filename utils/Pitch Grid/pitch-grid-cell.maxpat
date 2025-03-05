@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 898.0, 100.0, 796.0, 983.0 ],
+		"rect" : [ -909.0, -1061.0, 796.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,51 +40,251 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-9",
+					"id" : "obj-15",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 303.5, 410.169501304626465, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 289.0, 380.25424599647522, 48.0, 22.0 ],
+					"text" : "change"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-154",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 91.525425910949707, 308.220345973968506, 29.5, 22.0 ],
+					"text" : "t i i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-153",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 91.525425910949707, 380.25424599647522, 31.0, 22.0 ],
+					"text" : "pipe"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-151",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 103.389832973480225, 341.271194219589233, 108.0, 22.0 ],
+					"text" : "expr (1 - $i1) * 100"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 92.75, 425.0, 29.5, 22.0 ],
+					"text" : "* 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"coll_data" : 					{
+						"count" : 24,
+						"data" : [ 							{
+								"key" : 1,
+								"value" : [ 36 ]
+							}
+, 							{
+								"key" : 2,
+								"value" : [ 40 ]
+							}
+, 							{
+								"key" : 3,
+								"value" : [ 43 ]
+							}
+, 							{
+								"key" : 4,
+								"value" : [ 47 ]
+							}
+, 							{
+								"key" : 5,
+								"value" : [ 50 ]
+							}
+, 							{
+								"key" : 6,
+								"value" : [ 53 ]
+							}
+, 							{
+								"key" : 7,
+								"value" : [ 36 ]
+							}
+, 							{
+								"key" : 8,
+								"value" : [ 40 ]
+							}
+, 							{
+								"key" : 9,
+								"value" : [ 43 ]
+							}
+, 							{
+								"key" : 10,
+								"value" : [ 47 ]
+							}
+, 							{
+								"key" : 11,
+								"value" : [ 50 ]
+							}
+, 							{
+								"key" : 12,
+								"value" : [ 53 ]
+							}
+, 							{
+								"key" : 13,
+								"value" : [ 38 ]
+							}
+, 							{
+								"key" : 14,
+								"value" : [ 41 ]
+							}
+, 							{
+								"key" : 15,
+								"value" : [ 45 ]
+							}
+, 							{
+								"key" : 16,
+								"value" : [ 48 ]
+							}
+, 							{
+								"key" : 17,
+								"value" : [ 52 ]
+							}
+, 							{
+								"key" : 18,
+								"value" : [ 55 ]
+							}
+, 							{
+								"key" : 19,
+								"value" : [ 38 ]
+							}
+, 							{
+								"key" : 20,
+								"value" : [ 41 ]
+							}
+, 							{
+								"key" : 21,
+								"value" : [ 45 ]
+							}
+, 							{
+								"key" : 22,
+								"value" : [ 48 ]
+							}
+, 							{
+								"key" : 23,
+								"value" : [ 52 ]
+							}
+, 							{
+								"key" : 24,
+								"value" : [ 55 ]
+							}
+ ]
+					}
+,
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 672.0, 87.288137674331665, 52.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 1,
+						"precision" : 2
+					}
+,
+					"text" : "coll"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 157.5, 629.0, 75.0, 20.0 ],
-					"text" : "Note Pitch",
+					"patching_rect" : [ 431.355942487716675, 188.135597705841064, 56.0, 33.0 ],
+					"text" : "Y\nCoord",
 					"textjustification" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Note Pitch",
-					"id" : "obj-8",
-					"index" : 0,
-					"maxclass" : "outlet",
+					"id" : "obj-6",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 597.0, 30.0, 30.0 ]
+					"patching_rect" : [ 380.508483648300171, 555.084758996963501, 71.0, 22.0 ],
+					"text" : "s note-pitch"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "Y-Coordinate",
-					"id" : "obj-7",
-					"index" : 0,
-					"maxclass" : "inlet",
+					"id" : "obj-5",
+					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.0, 223.0, 30.0, 30.0 ]
+					"patching_rect" : [ 265.254243612289429, 222.881361246109009, 56.0, 22.0 ],
+					"text" : "r x-coord"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "X-Coordinate",
-					"id" : "obj-6",
-					"index" : 0,
-					"maxclass" : "inlet",
+					"id" : "obj-4",
+					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 99.0, 223.0, 30.0, 30.0 ]
+					"patching_rect" : [ 431.355942487716675, 222.881361246109009, 56.0, 22.0 ],
+					"text" : "r y-coord"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 377.966110706329346, 581.355946063995361, 75.0, 20.0 ],
+					"text" : "Note Pitch",
+					"textjustification" : 1
 				}
 
 			}
@@ -95,8 +295,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 544.0, 80.0, 195.0, 33.0 ],
-					"text" : "\"coll\" is a list that maps cell index to pre-defined cell x/y bounds",
+					"patching_rect" : [ 336.440685987472534, 81.355934143066406, 225.0, 33.0 ],
+					"text" : "\"coll\" is a list that maps cell index to pre-defined cell x/y bounds and pitches",
 					"textjustification" : 1
 				}
 
@@ -108,7 +308,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 456.75, 188.0, 126.25, 33.0 ],
+					"patching_rect" : [ 488.983062505722046, 188.135597705841064, 93.0, 33.0 ],
 					"text" : "Y\nBounds",
 					"textjustification" : 1
 				}
@@ -121,7 +321,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 188.0, 125.0, 33.0 ],
+					"patching_rect" : [ 322.8813636302948, 188.135597705841064, 105.0, 33.0 ],
 					"text" : "X\nBounds",
 					"textjustification" : 1
 				}
@@ -134,7 +334,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 188.0, 59.5, 33.0 ],
+					"patching_rect" : [ 91.055084705352783, 188.135597705841064, 59.5, 33.0 ],
 					"text" : "Note\nOn/Off",
 					"textjustification" : 1
 				}
@@ -146,8 +346,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 484.0, 18.0, 74.0, 20.0 ],
-					"text" : "Cell # (1-9)",
+					"patching_rect" : [ 581.355946063995361, 20.338983535766602, 41.5, 20.0 ],
+					"text" : "Cell #",
 					"textjustification" : 1
 				}
 
@@ -159,7 +359,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "float", "float", "float" ],
-					"patching_rect" : [ 488.0, 120.0, 78.0, 22.0 ],
+					"patching_rect" : [ 585.593234300613403, 122.033901214599609, 78.0, 22.0 ],
 					"text" : "unpack f f f f"
 				}
 
@@ -173,49 +373,109 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 488.0, 42.0, 30.0, 30.0 ]
+					"patching_rect" : [ 585.593234300613403, 44.067797660827637, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 9,
+						"count" : 24,
 						"data" : [ 							{
 								"key" : 1,
-								"value" : [ 0.0, 0.33, 0.66, 1.0 ]
+								"value" : [ 0.0, 0.1, 0.0, 0.3 ]
 							}
 , 							{
 								"key" : 2,
-								"value" : [ 0.33, 0.66, 0.66, 1.0 ]
+								"value" : [ 0.1, 0.3, 0.0, 0.3 ]
 							}
 , 							{
 								"key" : 3,
-								"value" : [ 0.66, 1.0, 0.66, 1.0 ]
+								"value" : [ 0.3, 0.5, 0.0, 0.3 ]
 							}
 , 							{
 								"key" : 4,
-								"value" : [ 0.0, 0.33, 0.33, 0.66 ]
+								"value" : [ 0.5, 0.7, 0.0, 0.3 ]
 							}
 , 							{
 								"key" : 5,
-								"value" : [ 0.33, 0.66, 0.33, 0.66 ]
+								"value" : [ 0.7, 0.9, 0.0, 0.3 ]
 							}
 , 							{
 								"key" : 6,
-								"value" : [ 0.66, 1.0, 0.33, 0.66 ]
+								"value" : [ 0.9, 1.0, 0.0, 0.3 ]
 							}
 , 							{
 								"key" : 7,
-								"value" : [ 0.0, 0.33, 0.0, 0.33 ]
+								"value" : [ 0.0, 0.1, 0.3, 0.5 ]
 							}
 , 							{
 								"key" : 8,
-								"value" : [ 0.33, 0.66, 0.0, 0.33 ]
+								"value" : [ 0.1, 0.3, 0.3, 0.5 ]
 							}
 , 							{
 								"key" : 9,
-								"value" : [ 0.66, 1.0, 0.0, 0.33 ]
+								"value" : [ 0.3, 0.5, 0.3, 0.5 ]
+							}
+, 							{
+								"key" : 10,
+								"value" : [ 0.5, 0.7, 0.3, 0.5 ]
+							}
+, 							{
+								"key" : 11,
+								"value" : [ 0.7, 0.9, 0.3, 0.5 ]
+							}
+, 							{
+								"key" : 12,
+								"value" : [ 0.9, 1.0, 0.3, 0.5 ]
+							}
+, 							{
+								"key" : 13,
+								"value" : [ 0.0, 0.1, 0.5, 0.7 ]
+							}
+, 							{
+								"key" : 14,
+								"value" : [ 0.1, 0.3, 0.5, 0.7 ]
+							}
+, 							{
+								"key" : 15,
+								"value" : [ 0.3, 0.5, 0.5, 0.7 ]
+							}
+, 							{
+								"key" : 16,
+								"value" : [ 0.5, 0.7, 0.5, 0.7 ]
+							}
+, 							{
+								"key" : 17,
+								"value" : [ 0.7, 0.9, 0.5, 0.7 ]
+							}
+, 							{
+								"key" : 18,
+								"value" : [ 0.9, 1.0, 0.5, 0.7 ]
+							}
+, 							{
+								"key" : 19,
+								"value" : [ 0.0, 0.1, 0.7, 1.0 ]
+							}
+, 							{
+								"key" : 20,
+								"value" : [ 0.1, 0.3, 0.7, 1.0 ]
+							}
+, 							{
+								"key" : 21,
+								"value" : [ 0.3, 0.5, 0.7, 1.0 ]
+							}
+, 							{
+								"key" : 22,
+								"value" : [ 0.5, 0.7, 0.7, 1.0 ]
+							}
+, 							{
+								"key" : 23,
+								"value" : [ 0.7, 0.9, 0.7, 1.0 ]
+							}
+, 							{
+								"key" : 24,
+								"value" : [ 0.9, 1.0, 0.7, 1.0 ]
 							}
  ]
 					}
@@ -225,26 +485,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 488.0, 85.0, 50.5, 22.0 ],
+					"patching_rect" : [ 585.593234300613403, 87.288137674331665, 50.5, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
-						"precision" : 6
+						"precision" : 2
 					}
 ,
 					"text" : "coll"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-106",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 368.0, 188.0, 82.0, 33.0 ],
-					"text" : "Y\nCoordinate",
-					"textjustification" : 1
 				}
 
 			}
@@ -255,8 +502,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, 188.0, 82.0, 33.0 ],
-					"text" : "X\nCoordinate",
+					"patching_rect" : [ 265.254243612289429, 188.135597705841064, 56.0, 33.0 ],
+					"text" : "X\nCoord",
 					"textjustification" : 1
 				}
 
@@ -268,7 +515,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 88.0, 460.0, 29.5, 22.0 ],
+					"patching_rect" : [ 254.23729419708252, 460.16950249671936, 29.5, 22.0 ],
 					"text" : "t b i"
 				}
 
@@ -280,7 +527,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 88.0, 497.0, 32.0, 22.0 ],
+					"patching_rect" : [ 254.23729419708252, 496.610181331634521, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -292,7 +539,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 202.0, 470.0, 72.0, 22.0 ],
+					"patching_rect" : [ 379.661026000976562, 470.338994264602661, 72.0, 22.0 ],
 					"text" : "prepend set"
 				}
 
@@ -306,7 +553,7 @@
 					"maxclass" : "live.comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 202.0, 507.0, 35.0, 18.0 ],
+					"patching_rect" : [ 379.661026000976562, 506.779673099517822, 35.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -0.065502807497978, 6.0, 30.131005614995956, 18.0 ],
 					"saved_attribute_attributes" : 					{
@@ -542,7 +789,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 202.0, 440.0, 66.0, 22.0 ],
+					"patching_rect" : [ 379.661026000976562, 439.830518960952759, 66.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -566,7 +813,7 @@
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 202.0, 410.0, 32.0, 15.0 ],
+					"patching_rect" : [ 379.661026000976562, 410.169501304626465, 32.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.371178, 7.310044, 29.257643000000002, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -610,7 +857,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 88.0, 379.0, 29.5, 22.0 ],
+					"patching_rect" : [ 254.23729419708252, 425.0, 29.5, 22.0 ],
 					"text" : "* 0."
 				}
 
@@ -622,7 +869,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 223.0, 57.0, 22.0 ],
+					"patching_rect" : [ 92.75, 222.881361246109009, 57.0, 22.0 ],
 					"text" : "r note-on"
 				}
 
@@ -638,7 +885,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 88.0, 410.0, 36.0, 37.0 ],
+					"patching_rect" : [ 92.75, 462.838994264602661, 36.0, 37.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 30.0, 30.0 ],
 					"saved_attribute_attributes" : 					{
@@ -675,7 +922,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 99.0, 326.0, 36.0, 37.0 ],
+					"patching_rect" : [ 265.254243612289429, 326.271194219589233, 36.0, 37.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 30.0, 30.0 ],
 					"saved_attribute_attributes" : 					{
@@ -700,386 +947,6 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.94902, 0.376471, 0.0, 0.0 ],
-					"activeslidercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-					"activetricolor2" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-					"annotation" : "Defines the depth for the modulation value.",
-					"annotation_name" : "Modulation Amount",
-					"appearance" : 4,
-					"focusbordercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-					"id" : "obj-44",
-					"lcdcolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
-					"maxclass" : "live.numbox",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 547.0, 264.0, 36.0, 15.0 ],
-					"prototypename" : "amount",
-					"saved_attribute_attributes" : 					{
-						"activebgcolor" : 						{
-							"expression" : ""
-						}
-,
-						"activeslidercolor" : 						{
-							"expression" : ""
-						}
-,
-						"activetricolor2" : 						{
-							"expression" : ""
-						}
-,
-						"focusbordercolor" : 						{
-							"expression" : ""
-						}
-,
-						"lcdcolor" : 						{
-							"expression" : "themecolor.live_value_arc"
-						}
-,
-						"textcolor" : 						{
-							"expression" : "themecolor.live_control_zombie"
-						}
-,
-						"valueof" : 						{
-							"parameter_annotation_name" : "Modulation Amount",
-							"parameter_enum" : [ "0", "1" ],
-							"parameter_info" : "Defines the depth for the modulation value.",
-							"parameter_initial" : [ 0.66 ],
-							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Modulation Amount 1[32]",
-							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 0,
-							"parameter_shortname" : "ModAmount",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1
-						}
-
-					}
-,
-					"textcolor" : [ 0.458823529411765, 0.458823529411765, 0.458823529411765, 1.0 ],
-					"varname" : "live.numbox[9]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"activebgcolor" : [ 0.94902, 0.376471, 0.0, 0.0 ],
-					"activeslidercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-					"activetricolor2" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-					"annotation" : "Defines the depth for the modulation value.",
-					"annotation_name" : "Modulation Amount",
-					"appearance" : 4,
-					"focusbordercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-					"id" : "obj-45",
-					"lcdcolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
-					"maxclass" : "live.numbox",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 457.0, 264.0, 36.0, 15.0 ],
-					"prototypename" : "amount",
-					"saved_attribute_attributes" : 					{
-						"activebgcolor" : 						{
-							"expression" : ""
-						}
-,
-						"activeslidercolor" : 						{
-							"expression" : ""
-						}
-,
-						"activetricolor2" : 						{
-							"expression" : ""
-						}
-,
-						"focusbordercolor" : 						{
-							"expression" : ""
-						}
-,
-						"lcdcolor" : 						{
-							"expression" : "themecolor.live_value_arc"
-						}
-,
-						"textcolor" : 						{
-							"expression" : "themecolor.live_control_zombie"
-						}
-,
-						"valueof" : 						{
-							"parameter_annotation_name" : "Modulation Amount",
-							"parameter_enum" : [ "0", "1" ],
-							"parameter_info" : "Defines the depth for the modulation value.",
-							"parameter_initial" : [ 0.33 ],
-							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Modulation Amount 1[33]",
-							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 0,
-							"parameter_shortname" : "ModAmount",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1
-						}
-
-					}
-,
-					"textcolor" : [ 0.458823529411765, 0.458823529411765, 0.458823529411765, 1.0 ],
-					"varname" : "live.numbox[10]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"activebgcolor" : [ 0.94902, 0.376471, 0.0, 0.0 ],
-					"activeslidercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-					"activetricolor2" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-					"annotation" : "Defines the depth for the modulation value.",
-					"annotation_name" : "Modulation Amount",
-					"appearance" : 4,
-					"focusbordercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-					"id" : "obj-47",
-					"lcdcolor" : [ 0.580392156862745, 0.870588235294118, 0.905882352941176, 1.0 ],
-					"maxclass" : "live.numbox",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 368.0, 264.0, 36.0, 15.0 ],
-					"prototypename" : "amount",
-					"saved_attribute_attributes" : 					{
-						"activebgcolor" : 						{
-							"expression" : ""
-						}
-,
-						"activeslidercolor" : 						{
-							"expression" : ""
-						}
-,
-						"activetricolor2" : 						{
-							"expression" : ""
-						}
-,
-						"focusbordercolor" : 						{
-							"expression" : ""
-						}
-,
-						"lcdcolor" : 						{
-							"expression" : ""
-						}
-,
-						"textcolor" : 						{
-							"expression" : ""
-						}
-,
-						"valueof" : 						{
-							"parameter_annotation_name" : "Modulation Amount",
-							"parameter_enum" : [ "0", "1" ],
-							"parameter_info" : "Defines the depth for the modulation value.",
-							"parameter_initial" : [ 0 ],
-							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Modulation Amount 1[19]",
-							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 0,
-							"parameter_shortname" : "ModAmount",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1
-						}
-
-					}
-,
-					"textcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
-					"varname" : "live.numbox[11]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"activebgcolor" : [ 0.94902, 0.376471, 0.0, 0.0 ],
-					"activeslidercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-					"activetricolor2" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-					"annotation" : "Defines the depth for the modulation value.",
-					"annotation_name" : "Modulation Amount",
-					"appearance" : 4,
-					"focusbordercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-					"id" : "obj-28",
-					"lcdcolor" : [ 1.0, 0.823529411764706, 0.662745098039216, 1.0 ],
-					"maxclass" : "live.numbox",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 99.0, 264.0, 36.0, 15.0 ],
-					"prototypename" : "amount",
-					"saved_attribute_attributes" : 					{
-						"activebgcolor" : 						{
-							"expression" : ""
-						}
-,
-						"activeslidercolor" : 						{
-							"expression" : ""
-						}
-,
-						"activetricolor2" : 						{
-							"expression" : ""
-						}
-,
-						"focusbordercolor" : 						{
-							"expression" : ""
-						}
-,
-						"lcdcolor" : 						{
-							"expression" : ""
-						}
-,
-						"textcolor" : 						{
-							"expression" : "themecolor.live_control_zombie"
-						}
-,
-						"valueof" : 						{
-							"parameter_annotation_name" : "Modulation Amount",
-							"parameter_enum" : [ "0", "1" ],
-							"parameter_info" : "Defines the depth for the modulation value.",
-							"parameter_initial" : [ 0 ],
-							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Modulation Amount 1[38]",
-							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 0,
-							"parameter_shortname" : "ModAmount",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1
-						}
-
-					}
-,
-					"textcolor" : [ 0.458823529411765, 0.458823529411765, 0.458823529411765, 1.0 ],
-					"varname" : "live.numbox[6]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"activebgcolor" : [ 0.94902, 0.376471, 0.0, 0.0 ],
-					"activeslidercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-					"activetricolor2" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-					"annotation" : "Defines the depth for the modulation value.",
-					"annotation_name" : "Modulation Amount",
-					"appearance" : 4,
-					"focusbordercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-					"id" : "obj-29",
-					"maxclass" : "live.numbox",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 278.0, 264.0, 36.0, 15.0 ],
-					"prototypename" : "amount",
-					"saved_attribute_attributes" : 					{
-						"activebgcolor" : 						{
-							"expression" : ""
-						}
-,
-						"activeslidercolor" : 						{
-							"expression" : ""
-						}
-,
-						"activetricolor2" : 						{
-							"expression" : ""
-						}
-,
-						"focusbordercolor" : 						{
-							"expression" : ""
-						}
-,
-						"textcolor" : 						{
-							"expression" : "themecolor.live_control_zombie"
-						}
-,
-						"valueof" : 						{
-							"parameter_annotation_name" : "Modulation Amount",
-							"parameter_enum" : [ "0", "1" ],
-							"parameter_info" : "Defines the depth for the modulation value.",
-							"parameter_initial" : [ 0.66 ],
-							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Modulation Amount 1[39]",
-							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 0,
-							"parameter_shortname" : "ModAmount",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1
-						}
-
-					}
-,
-					"textcolor" : [ 0.458823529411765, 0.458823529411765, 0.458823529411765, 1.0 ],
-					"varname" : "live.numbox[7]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"activebgcolor" : [ 0.94902, 0.376471, 0.0, 0.0 ],
-					"activeslidercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-					"activetricolor2" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-					"annotation" : "Defines the depth for the modulation value.",
-					"annotation_name" : "Modulation Amount",
-					"appearance" : 4,
-					"focusbordercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-					"id" : "obj-30",
-					"maxclass" : "live.numbox",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 189.0, 264.0, 36.0, 15.0 ],
-					"prototypename" : "amount",
-					"saved_attribute_attributes" : 					{
-						"activebgcolor" : 						{
-							"expression" : ""
-						}
-,
-						"activeslidercolor" : 						{
-							"expression" : ""
-						}
-,
-						"activetricolor2" : 						{
-							"expression" : ""
-						}
-,
-						"focusbordercolor" : 						{
-							"expression" : ""
-						}
-,
-						"textcolor" : 						{
-							"expression" : "themecolor.live_control_zombie"
-						}
-,
-						"valueof" : 						{
-							"parameter_annotation_name" : "Modulation Amount",
-							"parameter_enum" : [ "0", "1" ],
-							"parameter_info" : "Defines the depth for the modulation value.",
-							"parameter_initial" : [ 0.33 ],
-							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_longname" : "Modulation Amount 1[40]",
-							"parameter_mmax" : 1.0,
-							"parameter_modmode" : 0,
-							"parameter_shortname" : "ModAmount",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1
-						}
-
-					}
-,
-					"textcolor" : [ 0.458823529411765, 0.458823529411765, 0.458823529411765, 1.0 ],
-					"varname" : "live.numbox[8]"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "newobj",
 					"numinlets" : 6,
@@ -1096,7 +963,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 639.0, 796.0, 444.0 ],
+						"rect" : [ 230.0, 431.0, 796.0, 444.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1271,201 +1138,6 @@
 							}
 , 							{
 								"box" : 								{
-									"activebgcolor" : [ 0.94902, 0.376471, 0.0, 0.0 ],
-									"activeslidercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-									"activetricolor2" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-									"annotation" : "Defines the depth for the modulation value.",
-									"annotation_name" : "Modulation Amount",
-									"appearance" : 4,
-									"focusbordercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-									"id" : "obj-39",
-									"lcdcolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
-									"maxclass" : "live.numbox",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "float" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 524.0, 105.0, 36.0, 15.0 ],
-									"prototypename" : "amount",
-									"saved_attribute_attributes" : 									{
-										"activebgcolor" : 										{
-											"expression" : ""
-										}
-,
-										"activeslidercolor" : 										{
-											"expression" : ""
-										}
-,
-										"activetricolor2" : 										{
-											"expression" : ""
-										}
-,
-										"focusbordercolor" : 										{
-											"expression" : ""
-										}
-,
-										"lcdcolor" : 										{
-											"expression" : "themecolor.live_value_arc"
-										}
-,
-										"textcolor" : 										{
-											"expression" : "themecolor.live_control_zombie"
-										}
-,
-										"valueof" : 										{
-											"parameter_annotation_name" : "Modulation Amount",
-											"parameter_enum" : [ "0", "1" ],
-											"parameter_info" : "Defines the depth for the modulation value.",
-											"parameter_initial" : [ 0.3 ],
-											"parameter_initial_enable" : 1,
-											"parameter_invisible" : 1,
-											"parameter_longname" : "Modulation Amount 1[30]",
-											"parameter_mmax" : 1.0,
-											"parameter_modmode" : 0,
-											"parameter_shortname" : "ModAmount",
-											"parameter_type" : 0,
-											"parameter_unitstyle" : 1
-										}
-
-									}
-,
-									"textcolor" : [ 0.458823529411765, 0.458823529411765, 0.458823529411765, 1.0 ],
-									"varname" : "live.numbox[6]"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"activebgcolor" : [ 0.94902, 0.376471, 0.0, 0.0 ],
-									"activeslidercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-									"activetricolor2" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-									"annotation" : "Defines the depth for the modulation value.",
-									"annotation_name" : "Modulation Amount",
-									"appearance" : 4,
-									"focusbordercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-									"id" : "obj-40",
-									"lcdcolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
-									"maxclass" : "live.numbox",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "float" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 434.0, 105.0, 36.0, 15.0 ],
-									"prototypename" : "amount",
-									"saved_attribute_attributes" : 									{
-										"activebgcolor" : 										{
-											"expression" : ""
-										}
-,
-										"activeslidercolor" : 										{
-											"expression" : ""
-										}
-,
-										"activetricolor2" : 										{
-											"expression" : ""
-										}
-,
-										"focusbordercolor" : 										{
-											"expression" : ""
-										}
-,
-										"lcdcolor" : 										{
-											"expression" : "themecolor.live_value_arc"
-										}
-,
-										"textcolor" : 										{
-											"expression" : "themecolor.live_control_zombie"
-										}
-,
-										"valueof" : 										{
-											"parameter_annotation_name" : "Modulation Amount",
-											"parameter_enum" : [ "0", "1" ],
-											"parameter_info" : "Defines the depth for the modulation value.",
-											"parameter_initial" : [ 0.3 ],
-											"parameter_initial_enable" : 1,
-											"parameter_invisible" : 1,
-											"parameter_longname" : "Modulation Amount 1[18]",
-											"parameter_mmax" : 1.0,
-											"parameter_modmode" : 0,
-											"parameter_shortname" : "ModAmount",
-											"parameter_type" : 0,
-											"parameter_unitstyle" : 1
-										}
-
-									}
-,
-									"textcolor" : [ 0.458823529411765, 0.458823529411765, 0.458823529411765, 1.0 ],
-									"varname" : "live.numbox[7]"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"activebgcolor" : [ 0.94902, 0.376471, 0.0, 0.0 ],
-									"activeslidercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-									"activetricolor2" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-									"annotation" : "Defines the depth for the modulation value.",
-									"annotation_name" : "Modulation Amount",
-									"appearance" : 4,
-									"focusbordercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-									"id" : "obj-8",
-									"lcdcolor" : [ 0.709803921568627, 0.709803921568627, 0.709803921568627, 1.0 ],
-									"maxclass" : "live.numbox",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "float" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 343.0, 105.0, 36.0, 15.0 ],
-									"prototypename" : "amount",
-									"saved_attribute_attributes" : 									{
-										"activebgcolor" : 										{
-											"expression" : ""
-										}
-,
-										"activeslidercolor" : 										{
-											"expression" : ""
-										}
-,
-										"activetricolor2" : 										{
-											"expression" : ""
-										}
-,
-										"focusbordercolor" : 										{
-											"expression" : ""
-										}
-,
-										"lcdcolor" : 										{
-											"expression" : "themecolor.live_lcd_title"
-										}
-,
-										"textcolor" : 										{
-											"expression" : ""
-										}
-,
-										"valueof" : 										{
-											"parameter_annotation_name" : "Modulation Amount",
-											"parameter_enum" : [ "0", "1" ],
-											"parameter_info" : "Defines the depth for the modulation value.",
-											"parameter_initial" : [ 0 ],
-											"parameter_initial_enable" : 1,
-											"parameter_invisible" : 1,
-											"parameter_longname" : "Modulation Amount 1[27]",
-											"parameter_mmax" : 1.0,
-											"parameter_modmode" : 0,
-											"parameter_shortname" : "ModAmount",
-											"parameter_type" : 0,
-											"parameter_unitstyle" : 1
-										}
-
-									}
-,
-									"textcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
-									"varname" : "live.numbox[1]"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-12",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -1498,7 +1170,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "float" ],
 									"patching_rect" : [ 524.0, 64.0, 30.0, 30.0 ]
 								}
 
@@ -1511,7 +1183,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "float" ],
 									"patching_rect" : [ 434.0, 64.0, 30.0, 30.0 ]
 								}
 
@@ -1526,191 +1198,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 343.0, 64.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"activebgcolor" : [ 0.94902, 0.376471, 0.0, 0.0 ],
-									"activeslidercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-									"activetricolor2" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-									"annotation" : "Defines the depth for the modulation value.",
-									"annotation_name" : "Modulation Amount",
-									"appearance" : 4,
-									"focusbordercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-									"id" : "obj-18",
-									"lcdcolor" : [ 0.709803921568627, 0.709803921568627, 0.709803921568627, 1.0 ],
-									"maxclass" : "live.numbox",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "float" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 31.0, 105.0, 36.0, 15.0 ],
-									"prototypename" : "amount",
-									"saved_attribute_attributes" : 									{
-										"activebgcolor" : 										{
-											"expression" : ""
-										}
-,
-										"activeslidercolor" : 										{
-											"expression" : ""
-										}
-,
-										"activetricolor2" : 										{
-											"expression" : ""
-										}
-,
-										"focusbordercolor" : 										{
-											"expression" : ""
-										}
-,
-										"lcdcolor" : 										{
-											"expression" : "themecolor.live_lcd_title"
-										}
-,
-										"textcolor" : 										{
-											"expression" : ""
-										}
-,
-										"valueof" : 										{
-											"parameter_annotation_name" : "Modulation Amount",
-											"parameter_enum" : [ "0", "1" ],
-											"parameter_info" : "Defines the depth for the modulation value.",
-											"parameter_initial" : [ 0 ],
-											"parameter_initial_enable" : 1,
-											"parameter_invisible" : 1,
-											"parameter_longname" : "Modulation Amount 1[35]",
-											"parameter_mmax" : 1.0,
-											"parameter_modmode" : 0,
-											"parameter_shortname" : "ModAmount",
-											"parameter_type" : 0,
-											"parameter_unitstyle" : 1
-										}
-
-									}
-,
-									"textcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
-									"varname" : "live.numbox[5]"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"activebgcolor" : [ 0.94902, 0.376471, 0.0, 0.0 ],
-									"activeslidercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-									"activetricolor2" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-									"annotation" : "Defines the depth for the modulation value.",
-									"annotation_name" : "Modulation Amount",
-									"appearance" : 4,
-									"focusbordercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-									"id" : "obj-20",
-									"maxclass" : "live.numbox",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "float" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 212.0, 105.0, 36.0, 15.0 ],
-									"prototypename" : "amount",
-									"saved_attribute_attributes" : 									{
-										"activebgcolor" : 										{
-											"expression" : ""
-										}
-,
-										"activeslidercolor" : 										{
-											"expression" : ""
-										}
-,
-										"activetricolor2" : 										{
-											"expression" : ""
-										}
-,
-										"focusbordercolor" : 										{
-											"expression" : ""
-										}
-,
-										"textcolor" : 										{
-											"expression" : ""
-										}
-,
-										"valueof" : 										{
-											"parameter_annotation_name" : "Modulation Amount",
-											"parameter_enum" : [ "0", "1" ],
-											"parameter_info" : "Defines the depth for the modulation value.",
-											"parameter_initial" : [ 1 ],
-											"parameter_initial_enable" : 1,
-											"parameter_invisible" : 1,
-											"parameter_longname" : "Modulation Amount 1[36]",
-											"parameter_mmax" : 1.0,
-											"parameter_modmode" : 0,
-											"parameter_shortname" : "ModAmount",
-											"parameter_type" : 0,
-											"parameter_unitstyle" : 1
-										}
-
-									}
-,
-									"textcolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-									"varname" : "live.numbox[4]"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"activebgcolor" : [ 0.94902, 0.376471, 0.0, 0.0 ],
-									"activeslidercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-									"activetricolor2" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-									"annotation" : "Defines the depth for the modulation value.",
-									"annotation_name" : "Modulation Amount",
-									"appearance" : 4,
-									"focusbordercolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-									"id" : "obj-9",
-									"maxclass" : "live.numbox",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "float" ],
-									"parameter_enable" : 1,
-									"patching_rect" : [ 122.0, 105.0, 36.0, 15.0 ],
-									"prototypename" : "amount",
-									"saved_attribute_attributes" : 									{
-										"activebgcolor" : 										{
-											"expression" : ""
-										}
-,
-										"activeslidercolor" : 										{
-											"expression" : ""
-										}
-,
-										"activetricolor2" : 										{
-											"expression" : ""
-										}
-,
-										"focusbordercolor" : 										{
-											"expression" : ""
-										}
-,
-										"textcolor" : 										{
-											"expression" : ""
-										}
-,
-										"valueof" : 										{
-											"parameter_annotation_name" : "Modulation Amount",
-											"parameter_enum" : [ "0", "1" ],
-											"parameter_info" : "Defines the depth for the modulation value.",
-											"parameter_initial" : [ 0 ],
-											"parameter_initial_enable" : 1,
-											"parameter_invisible" : 1,
-											"parameter_longname" : "Modulation Amount 1[37]",
-											"parameter_mmax" : 1.0,
-											"parameter_modmode" : 0,
-											"parameter_shortname" : "ModAmount",
-											"parameter_type" : 0,
-											"parameter_unitstyle" : 1
-										}
-
-									}
-,
-									"textcolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-									"varname" : "live.numbox"
 								}
 
 							}
@@ -1761,7 +1248,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "float" ],
 									"patching_rect" : [ 212.0, 64.0, 30.0, 30.0 ]
 								}
 
@@ -1774,7 +1261,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "float" ],
 									"patching_rect" : [ 122.0, 64.0, 30.0, 30.0 ]
 								}
 
@@ -1795,24 +1282,14 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-18", 0 ],
-									"midpoints" : [ 40.5, 96.0, 40.5, 96.0 ],
+									"destination" : [ "obj-43", 0 ],
 									"source" : [ "obj-1", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-43", 0 ],
-									"midpoints" : [ 40.5, 123.0, 40.5, 123.0 ],
-									"source" : [ "obj-18", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
-									"midpoints" : [ 131.5, 96.0, 131.5, 96.0 ],
+									"destination" : [ "obj-43", 1 ],
 									"source" : [ "obj-2", 0 ]
 								}
 
@@ -1820,56 +1297,28 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-43", 2 ],
-									"midpoints" : [ 221.5, 123.0, 221.5, 123.0 ],
-									"source" : [ "obj-20", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-20", 0 ],
-									"midpoints" : [ 221.5, 96.0, 221.5, 96.0 ],
 									"source" : [ "obj-3", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-39", 0 ],
-									"midpoints" : [ 533.5, 96.0, 533.5, 96.0 ],
+									"destination" : [ "obj-50", 2 ],
 									"source" : [ "obj-36", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-40", 0 ],
-									"midpoints" : [ 443.5, 96.0, 443.5, 96.0 ],
+									"destination" : [ "obj-50", 1 ],
 									"source" : [ "obj-37", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
-									"midpoints" : [ 352.5, 96.0, 352.5, 96.0 ],
+									"destination" : [ "obj-50", 0 ],
 									"source" : [ "obj-38", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-50", 2 ],
-									"midpoints" : [ 533.5, 123.0, 533.5, 123.0 ],
-									"source" : [ "obj-39", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-50", 1 ],
-									"midpoints" : [ 443.5, 123.0, 443.0, 123.0 ],
-									"source" : [ "obj-40", 0 ]
 								}
 
 							}
@@ -1952,26 +1401,10 @@
 								}
 
 							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-50", 0 ],
-									"midpoints" : [ 352.5, 123.0, 352.5, 123.0 ],
-									"source" : [ "obj-8", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-43", 1 ],
-									"midpoints" : [ 131.5, 123.0, 131.0, 123.0 ],
-									"source" : [ "obj-9", 0 ]
-								}
-
-							}
  ]
 					}
 ,
-					"patching_rect" : [ 99.0, 293.0, 468.0, 22.0 ],
+					"patching_rect" : [ 265.254243612289429, 293.220345973968506, 296.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1986,138 +1419,181 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"midpoints" : [ 681.5, 396.0, 389.161026000976562, 396.0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-113", 0 ],
+					"midpoints" : [ 595.093234300613403, 111.0, 595.093234300613403, 111.0 ],
 					"source" : [ "obj-109", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-109", 0 ],
+					"destination" : [ "obj-55", 0 ],
+					"midpoints" : [ 102.25, 450.0, 102.25, 450.0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"midpoints" : [ 595.093234300613403, 75.0, 657.0, 75.0, 657.0, 75.0, 681.5, 75.0 ],
+					"order" : 0,
 					"source" : [ "obj-112", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
-					"midpoints" : [ 517.166666666666629, 172.0, 287.5, 172.0 ],
-					"source" : [ "obj-113", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
-					"midpoints" : [ 497.5, 172.0, 198.5, 172.0 ],
-					"source" : [ "obj-113", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"midpoints" : [ 556.5, 171.0, 556.5, 171.0 ],
-					"source" : [ "obj-113", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
-					"midpoints" : [ 536.833333333333371, 171.0, 466.5, 171.0 ],
-					"source" : [ "obj-113", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
-					"source" : [ "obj-24", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"source" : [ "obj-28", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-24", 2 ],
-					"source" : [ "obj-29", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-24", 1 ],
-					"source" : [ "obj-30", 0 ]
+					"destination" : [ "obj-109", 0 ],
+					"midpoints" : [ 595.093234300613403, 75.0, 595.093234300613403, 75.0 ],
+					"order" : 1,
+					"source" : [ "obj-112", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 5 ],
-					"source" : [ "obj-44", 0 ]
+					"midpoints" : [ 654.093234300613403, 279.0, 551.754243612289429, 279.0 ],
+					"source" : [ "obj-113", 3 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 4 ],
-					"source" : [ "obj-45", 0 ]
+					"midpoints" : [ 634.426567633946775, 279.0, 496.354243612289451, 279.0 ],
+					"source" : [ "obj-113", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 2 ],
+					"midpoints" : [ 614.759900967280032, 279.0, 385.55424361228944, 279.0 ],
+					"source" : [ "obj-113", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 1 ],
+					"midpoints" : [ 595.093234300613403, 279.0, 330.154243612289406, 279.0 ],
+					"source" : [ "obj-113", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-14", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-153", 1 ],
+					"midpoints" : [ 112.889832973480225, 366.0, 113.025425910949707, 366.0 ],
+					"source" : [ "obj-151", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 101.025425910949707, 420.0, 102.25, 420.0 ],
+					"source" : [ "obj-153", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-151", 0 ],
+					"midpoints" : [ 111.525425910949707, 333.0, 112.889832973480225, 333.0 ],
+					"source" : [ "obj-154", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-153", 0 ],
+					"midpoints" : [ 101.025425910949707, 333.0, 101.025425910949707, 333.0 ],
+					"source" : [ "obj-154", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"midpoints" : [ 274.754243612289429, 318.0, 274.754243612289429, 318.0 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 3 ],
-					"source" : [ "obj-47", 0 ]
+					"midpoints" : [ 440.855942487716675, 246.0, 440.954243612289417, 246.0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-73", 1 ],
+					"destination" : [ "obj-11", 1 ],
+					"midpoints" : [ 274.754243612289429, 411.0, 132.0, 411.0, 132.0, 411.525423526763916, 112.75, 411.525423526763916 ],
+					"order" : 1,
 					"source" : [ "obj-48", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-91", 0 ],
-					"source" : [ "obj-55", 0 ]
+					"destination" : [ "obj-73", 1 ],
+					"midpoints" : [ 274.754243612289429, 366.0, 274.23729419708252, 366.0 ],
+					"order" : 0,
+					"source" : [ "obj-48", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"source" : [ "obj-6", 0 ]
+					"destination" : [ "obj-24", 0 ],
+					"midpoints" : [ 274.754243612289429, 246.0, 274.754243612289429, 246.0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-73", 0 ],
-					"midpoints" : [ 28.5, 375.0, 97.5, 375.0 ],
+					"destination" : [ "obj-154", 0 ],
+					"midpoints" : [ 102.25, 303.0, 101.025425910949707, 303.0 ],
+					"order" : 1,
 					"source" : [ "obj-61", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"source" : [ "obj-7", 0 ]
+					"destination" : [ "obj-73", 0 ],
+					"midpoints" : [ 102.25, 294.0, 252.0, 294.0, 252.0, 411.0, 263.73729419708252, 411.0 ],
+					"order" : 0,
+					"source" : [ "obj-61", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-55", 0 ],
+					"destination" : [ "obj-91", 0 ],
+					"midpoints" : [ 263.73729419708252, 450.0, 263.73729419708252, 450.0 ],
 					"source" : [ "obj-73", 0 ]
 				}
 
@@ -2125,7 +1601,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-81", 0 ],
-					"midpoints" : [ 211.5, 492.674557030200958, 211.5, 492.674557030200958 ],
+					"midpoints" : [ 389.161026000976562, 495.0, 389.161026000976562, 495.0 ],
 					"source" : [ "obj-80", 0 ]
 				}
 
@@ -2133,15 +1609,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
-					"midpoints" : [ 211.5, 462.674557030200958, 211.5, 462.674557030200958 ],
+					"midpoints" : [ 389.161026000976562, 462.0, 389.161026000976562, 462.0 ],
 					"source" : [ "obj-82", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 211.5, 426.0, 189.0, 426.0, 189.0, 591.0, 189.5, 591.0 ],
+					"destination" : [ "obj-6", 0 ],
+					"midpoints" : [ 389.161026000976562, 426.0, 366.0, 426.0, 366.0, 540.0, 390.008483648300171, 540.0 ],
 					"order" : 1,
 					"source" : [ "obj-83", 0 ]
 				}
@@ -2150,7 +1626,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
-					"midpoints" : [ 211.5, 423.674557030200958, 211.5, 423.674557030200958 ],
+					"midpoints" : [ 389.161026000976562, 426.0, 389.161026000976562, 426.0 ],
 					"order" : 0,
 					"source" : [ "obj-83", 0 ]
 				}
@@ -2159,7 +1635,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-83", 0 ],
-					"midpoints" : [ 97.5, 526.569343030452728, 169.128564142180267, 526.569343030452728, 169.128564142180267, 406.0, 211.5, 406.0 ],
 					"source" : [ "obj-88", 0 ]
 				}
 
@@ -2167,6 +1642,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-88", 0 ],
+					"midpoints" : [ 274.23729419708252, 483.0, 263.73729419708252, 483.0 ],
 					"source" : [ "obj-91", 1 ]
 				}
 
@@ -2174,24 +1650,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-88", 1 ],
+					"midpoints" : [ 263.73729419708252, 492.0, 276.73729419708252, 492.0 ],
 					"source" : [ "obj-91", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-24::obj-18" : [ "Modulation Amount 1[35]", "ModAmount", 0 ],
-			"obj-24::obj-20" : [ "Modulation Amount 1[36]", "ModAmount", 0 ],
-			"obj-24::obj-39" : [ "Modulation Amount 1[30]", "ModAmount", 0 ],
-			"obj-24::obj-40" : [ "Modulation Amount 1[18]", "ModAmount", 0 ],
-			"obj-24::obj-8" : [ "Modulation Amount 1[27]", "ModAmount", 0 ],
-			"obj-24::obj-9" : [ "Modulation Amount 1[37]", "ModAmount", 0 ],
-			"obj-28" : [ "Modulation Amount 1[38]", "ModAmount", 0 ],
-			"obj-29" : [ "Modulation Amount 1[39]", "ModAmount", 0 ],
-			"obj-30" : [ "Modulation Amount 1[40]", "ModAmount", 0 ],
-			"obj-44" : [ "Modulation Amount 1[32]", "ModAmount", 0 ],
-			"obj-45" : [ "Modulation Amount 1[33]", "ModAmount", 0 ],
-			"obj-47" : [ "Modulation Amount 1[19]", "ModAmount", 0 ],
 			"obj-48" : [ "live.toggle", "live.toggle", 0 ],
 			"obj-55" : [ "live.toggle[1]", "live.toggle", 0 ],
 			"obj-83" : [ "live.numbox[1]", "live.numbox", 0 ],
